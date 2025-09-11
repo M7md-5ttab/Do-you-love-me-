@@ -96,6 +96,11 @@ function handleNoClick() {
         resultContainer.style.display = "inherit";
         gifResult.play();
       }, 3000);
+      setTimeout(() => {
+      const phone = "201062947198"; // الرقم بدون +
+      const message = "تووووووحفة ياحووومصة 😍";
+      window.location.href = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    }, 5000);
     });
   }
 }
@@ -115,7 +120,7 @@ yesBtn.addEventListener("click", () => {
     // بعد ظهور النتيجة بـ 3 ثواني، اعمل إعادة توجيه لواتساب
     setTimeout(() => {
       const phone = "201062947198"; // الرقم بدون +
-      const message = "توووحفة ياحوووومصة 😍";
+      const message ="توووووووحفة ياحوووومصة ❤️😍";
       window.location.href = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     }, 1000);
 
